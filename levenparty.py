@@ -41,6 +41,7 @@ class LevenPartyResource(IttyResource):
             'hello': 'Welcome to LevenParty, a pseudo-port of Translation Party.',
             'help': "Send a GET request in the format /<word_1>/<word_2>/ (i.e. /hello/friend/).",
             'last_fifty_parties': LAST_FIFTY,
+            'source_code': 'https://github.com/toastdriven/levenparty',
         }
 
     def detail(self, word_1, word_2):
